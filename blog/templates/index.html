@@ -1,0 +1,852 @@
+
+<!DOCTYPE html><html lang="zh-CN"><head>
+	<meta charset="UTF-8" />
+	<title>DR-II 主题 demo 站 - 优雅的高性能响应式WordPress主题</title>
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+	<meta name="renderer" content="webkit" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="author" content="INN STUDIO" />
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://demo.shejidaren.com/dr-ii/xmlrpc.php" />
+	<link id="unsemantic-grid-responsive-tablet-no-ie7" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/css/min/modules/unsemantic-grid-responsive-tablet-no-ie7.css?v=1.3.3" rel="stylesheet" media="all"/>	<link id="fonts" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/css/min/frontend/fonts.css?v=1.3.3" rel="stylesheet" media="all"/>	<link id="style" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/css/min/frontend/style.css?v=1.3.3" rel="stylesheet" media="all"/>	<meta name='robots' content='noindex,follow' />
+  <meta name="keywords" content="wordpress模板,响应式wordpress主题,wordpress主题"/><meta name="description" content="DR-II是一款响应式手机wordpress主题网站，在移动手机、平板电脑、桌面平台都有极好的浏览体验，适合自媒体、站长、企业博客等用户使用。"/><link rel='dns-prefetch' href='//s.w.org' />
+  <link rel="alternate" type="application/rss+xml" title="DR-II 主题 demo 站 &raquo; Feed" href="http://demo.shejidaren.com/dr-ii/?feed=rss2" />
+  <link rel="alternate" type="application/rss+xml" title="DR-II 主题 demo 站 &raquo; 评论Feed" href="http://demo.shejidaren.com/dr-ii/?feed=comments-rss2" />
+  <script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+    !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link rel='stylesheet' id='theme_post_share-css'  href='http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/includes/theme-post-share/static/css/min/style.css?ver=1.3.3' type='text/css' media='all' />
+  <link rel='https://api.w.org/' href='http://demo.shejidaren.com/dr-ii/?rest_route=/' />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demo.shejidaren.com/dr-ii/xmlrpc.php?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.shejidaren.com/dr-ii/wp-includes/wlwmanifest.xml" /> 
+  <script id="seajsnode" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/js/min/seajs/sea.js?v=1.3.3"></script>
+  <script>
+    seajs.config({"base":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/js\/min\/","paths":{"theme_js":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/js\/min\/","theme_css":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/css\/min\/"},"vars":{"locale":"zh_CN","theme_js":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/js\/min\/","theme_css":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/css\/min\/","theme_images":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/static\/images\/min\/","process_url":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-admin\/admin-ajax.php"},"map":[[".css",".css?v=1.3.3"],[".js",".js?v=1.3.3"]],"alias":{"theme-cache-request":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-admin\/admin-ajax.php?action=theme-cache-request","theme_post_share":"http:\/\/demo.shejidaren.com\/dr-ii\/wp-content\/themes\/dr-ii\/includes\/theme-post-share\/static\/js\/min\/init.js?v=1.3.3"}});
+    seajs.use('frontend',function(m){
+      m.init();
+    });
+    seajs.use('theme-cache-request',function(m){
+    });
+    seajs.use('http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/includes/theme-custom-slidebox/static/js/min/init.js?v=1.3.3',function(m){
+      m.config.width = 670;
+      m.config.height = 360;
+      m.init();
+    });
+    seajs.use('theme_post_share',function(m){
+      m.init();
+    });
+  </script>~
+  <link rel="shortcut icon" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/favicon.ico?v=1.3.3" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/apple-touch-icon.png?v=1.3.3" />
+  <link rel="icon" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/apple-touch-icon.png?v=1.3.3" />
+  <style id="header-css">
+    #banner{
+      background-image: url(http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/headers/polygon.jpg);
+    }
+  </style>
+  <style id="custom-background-css">
+    body.custom-background { background-color: #eeeeee; }
+  </style>
+  <!--[if lte IE 8]>
+	<link id="lte-ie8" href="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/css/min/frontend/lte-ie8.css?v=1.3.3" rel="stylesheet" media="all"/>	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<script>seajs.use('http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/js/min/fuckyoumanie8.js?v=1.3.3',function(ie8){
+		ie8.fuck();
+	});</script>
+	<![endif]-->
+</head>
+<body class="home blog">
+<!--[if lte IE 7]>
+<style>
+#ie-notice{
+	clear: both; 
+	color: #555;
+	font-size: 15px; 
+	padding: 5px;
+	text-align: center;
+}
+</style>
+<div id="ie-notice">
+	<div class="tip-status tip-status-small tip-status-loading"><span class="icon-spinner"></span><span class="after-icon"></span></div></div>  
+<![endif]-->
+<nav class="top-bar">
+	<div class="grid-container">
+		<div class="menu-mobile-toggle hide-on-desktop hide-on-tablet mobile-grid-15">
+			<a href="javascript:void(0);" class="display-toggle toggle" data-target="#menu-mobile-header">
+				<span class="icon-menu"></span><span class="after-icon hide">导航菜单</span>
+			</a>
+		</div>
+		<div class="mobile-grid-70 hide-on-desktop hide-on-tablet mobile-site-name">
+			<a href="http://demo.shejidaren.com/dr-ii">DR-II 主题 demo 站</a>
+		</div>
+		<div class="nav hide-on-mobile">
+			<a href="http://demo.shejidaren.com/dr-ii" class="nav-home"><span class="icon-home"></span><span class="after-icon">首页</span></a>
+			<nav class="menu-top-bar-container"><ul id="menu-header-bar" class="menu hide-on-mobile menu-desktop"><li id="menu-item-1280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1280"><a href="http://demo.shejidaren.com/dr-ii/?page_id=5">文章归档</a></li><li id="menu-item-1278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1278"><a href="http://demo.shejidaren.com/dr-ii/?page_id=7">标签</a></li><li id="menu-item-1279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1279"><a href="http://demo.shejidaren.com/dr-ii/?page_id=6">友情链接</a></li></ul></nav>		</div>
+		<!-- search -->
+		<form role="search" method="get" action="http://demo.shejidaren.com/dr-ii/" class="fm-search hide-on-mobile">
+			<label for="top-bar-s" class="form-icon"><span class="icon-search"></span></label>
+			<input type="text" class="form-control form-control-icon" title="搜索" id="top-bar-s" name="s" placeholder="搜索…" value="" required />
+			<button type="submit" class="submit" title="提交">搜索</button>
+		</form>
+		<!-- social link icons -->
+					<div class="social-links hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?p=919" class="icon-twitter" target="_blank" rel="nofollow" title="查看我的 Twitter 主页"></a>
+						<a href="http://demo.shejidaren.com/dr-ii/?p=919" class="icon-sina-weibo" target="_blank" rel="nofollow" title="查看我的 新浪微博 主页"></a>
+						<a href="http://demo.shejidaren.com/dr-ii/?p=919" class="icon-qq" target="_blank" rel="nofollow" title="查看我的 QQ空间 主页"></a>
+						<a href="" class="icon-renren" target="_blank" rel="nofollow" title="查看我的 人人网 主页"></a>
+						<a href="" class="icon-googleplus" target="_blank" rel="nofollow" title="查看我的 Google plus 主页"></a>
+						<a href="" class="icon-github" target="_blank" rel="nofollow" title="查看我的 GitHub 主页"></a>
+						<a href="" class="icon-facebook" target="_blank" rel="nofollow" title="查看我的 Facebook 主页"></a>
+						<a href="" class="icon-instagram" target="_blank" rel="nofollow" title="查看我的 Instagram 主页"></a>
+						<a href="http://demo.shejidaren.com/dr-ii/?feed=rss2" class="icon-rss" target="_blank" rel="nofollow" title="查看我的 RSS 订阅 主页"></a>
+						</div>
+				
+		<!-- mobile search -->
+		<div class="mobile-search-toggle hide-on-desktop hide-on-tablet mobile-grid-15"><a href="javascript:void(0);" class="display-toggle" data-target="#mobile-search-fm" data-change-icon="icon-times" data-restore-icon="icon-search" data-focus="#mobile-search-s">
+			<span class="icon-search"></span></a></div>
+	</div>
+	<div class="grid-container">
+		<div class="grid-100 menu-header-mobile-container">
+			<nav class="menu-testing-menu-container"><ul id="menu-mobile-header" class="menu menu-mobile menu-mobile-header hide clr"><li id="menu-item-1257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1257"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1149">About</a></li><li id="menu-item-1114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1114"><a href="#">Pages</a><ul class="sub-menu"><li id="menu-item-1258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1062">Amazon Store</a></li><li id="menu-item-1259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1259"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1066">Blog</a></li><li id="menu-item-1260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1260"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1064">Home</a></li><li id="menu-item-1261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1261"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1146">Page Comments</a></li><li id="menu-item-1262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1262"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1145">Page Comments Disabled</a></li><li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1147">Page Image Alignment</a></li><li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1264"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1148">Page Markup And Formatting</a></li></ul></li><li id="menu-item-1115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1115"><a href="#">Categories</a></li><li id="menu-item-1133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1133"><a href="#">Depth</a><ul class="sub-menu"><li id="menu-item-1134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1134"><a href="#">Level 01</a><ul class="sub-menu"><li id="menu-item-1135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1135"><a href="#">Level 02</a><ul class="sub-menu"><li id="menu-item-1136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1136"><a href="#">Level 03</a><ul class="sub-menu"><li id="menu-item-1137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1137"><a href="#">Level 04</a><ul class="sub-menu"><li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1138"><a href="#">Level 05</a><ul class="sub-menu"><li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1139"><a href="#">Level 06</a><ul class="sub-menu"><li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1140"><a href="#">Level 07</a><ul class="sub-menu"><li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1141"><a href="#">Level 08</a><ul class="sub-menu"><li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1142"><a href="#">Level 09</a><ul class="sub-menu"><li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1143"><a href="#">Level 10</a></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li id="menu-item-1144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1144"><a href="#">Advanced</a><ul class="sub-menu"><li id="menu-item-1157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1157"><a title="Custom Title Attribute" href="#">Menu Title Attribute</a></li><li id="menu-item-1158" class="custom-menu-css-class menu-item menu-item-type-custom menu-item-object-custom menu-item-1158"><a href="#">Menu CSS Class</a></li><li id="menu-item-1159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1159"><a target="_blank" href="http://apple.com">New Window / Tab</a></li></ul></li><li id="menu-item-1156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1156"><a href="#">Menu Description</a></li></ul></nav>	
+		</div>
+		<form role="search" method="get" action="http://demo.shejidaren.com/dr-ii/" id="mobile-search-fm" class="grid-100 hide">
+			<div class="input-group">
+				<label for="mobile-search-s" class="form-icon"><span class="icon-search"></span></label>
+				<input id="mobile-search-s" type="text" class="form-control form-control-icon" title="搜索" name="s" placeholder="输入关键词搜索" value="" required />
+				<input type="submit" class="hide" value="提交"/>
+			</div>
+		</form>
+
+	</div>
+
+</nav><!-- /.top-bar -->
+
+<header class="nav-header hide-on-mobile">
+	<div class="grid-container">
+		<h1>
+			<a href="http://demo.shejidaren.com/dr-ii" class="nav-home">
+									<img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/drii-logo-32-85x32.png" alt="DR-II 主题 demo 站" height="32"/>
+							</a>
+		</h1>
+		<div class="menu-desktop">
+			<nav class="menu-home-menu-container"><ul id="menu-header" class="menu"><li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a href="http://www.shejidaren.com/dr-ii.html">购买主题</a></li><li id="menu-item-1344" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1344"><a href="#nogo">独立页面</a><ul class="sub-menu"><li id="menu-item-1345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1345"><a href="http://demo.shejidaren.com/dr-ii/?page_id=5">文章归档</a></li><li id="menu-item-1346" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1346"><a href="http://demo.shejidaren.com/dr-ii/?page_id=7">标签云</a></li><li id="menu-item-1347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1347"><a href="http://demo.shejidaren.com/dr-ii/?page_id=6">友情链接</a></li><li id="menu-item-1350" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1350"><a href="http://demo.shejidaren.com/dr-ii/?p=404">404页面</a></li><li id="menu-item-1348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1348"><a href="http://demo.shejidaren.com/dr-ii/?s=%E8%AE%BE%E8%AE%A1">搜索页</a></li></ul></li><li id="menu-item-1326" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1326"><a href="http://demo.shejidaren.com/dr-ii/?cat=74">WordPress主题</a><ul class="sub-menu"><li id="menu-item-1331" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1331"><a href="http://demo.shejidaren.com/dr-ii/?cat=76">WP插件推荐</a></li><li id="menu-item-1329" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1329"><a href="http://demo.shejidaren.com/dr-ii/?cat=80">多级菜单测试</a><ul class="sub-menu"><li id="menu-item-1328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1328"><a href="http://demo.shejidaren.com/dr-ii/?cat=79">三级菜单</a></li><li id="menu-item-1340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1340"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1153">Child Page 03</a></li><li id="menu-item-1339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1339"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1154">Child Page 04</a></li><li id="menu-item-1338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1338"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1155">Child Page 05</a></li><li id="menu-item-1332" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1332"><a href="http://demo.shejidaren.com/dr-ii/?cat=77">WP设计开发</a></li></ul></li><li id="menu-item-1327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1327"><a href="http://demo.shejidaren.com/dr-ii/?cat=75">WoordPress教程</a></li><li id="menu-item-1341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1341"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1151">Child Page 01</a></li><li id="menu-item-1342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1342"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1152">Child Page 02</a></li><li id="menu-item-1343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1343"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1153">Child Page 03</a></li><li id="menu-item-1330" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1330"><a href="http://demo.shejidaren.com/dr-ii/?cat=78">WordPress安装</a></li></ul></li><li id="menu-item-1336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1336"><a href="http://demo.shejidaren.com/dr-ii/?cat=90">Wonder Life</a></li><li id="menu-item-1335" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1335"><a href="http://demo.shejidaren.com/dr-ii/?cat=72">视觉设计</a></li><li id="menu-item-1333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1333"><a href="http://demo.shejidaren.com/dr-ii/?cat=81">学习笔记</a></li></ul></nav>		</div>
+	</div><!-- /.grid-container -->
+</header><!-- /.nav-header -->
+	<div id="banner" class="">
+					<h2><span>优雅的高性能响应式WordPress主题</span></h2>
+			</div>
+
+			<div class="recommended-posts grid-container hide-on-mobile">
+				<article class="post-1365 post type-post status-publish format-standard has-post-thumbnail hentry category-wonder-life category-81 tag-life tag-92 tag-94 tag-93">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="不属于我的东西，我不要。不是真心给我的东西，我不要">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/78D1F7952121-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="不属于我的东西，我不要。不是真心给我的东西，我不要" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=90" rel="category" style="background-color:#a89d84" title="查看所有 Wonder Life 的文章">Wonder Life</a>
+								<a href="http://demo.shejidaren.com/dr-ii/?cat=81" rel="category" style="background-color:#ca8661" title="查看所有 学习笔记 的文章">学习笔记</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="不属于我的东西，我不要。不是真心给我的东西，我不要" class="colorful-title" data-hover-color="#a89d84" ><small class="colorful-tag" style="background-color:#86b767;">精选</small>不属于我的东西，我不要。不是真心给我的东西，我不要</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>等你到了一定的年龄，彼此的过去已经不再重要，那些曾经令你无比在乎的东西就好像半途而退的潮汐一般似乎没有了提及的 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-09T09:48:01+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.09</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1365" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">1535</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1365#comment-box-1365" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">21</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1365#post-1365" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1321 post type-post status-publish format-standard has-post-thumbnail hentry category-73">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="设计趋势：2015年春夏流行色">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/pp-3-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="设计趋势：2015年春夏流行色" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="设计趋势：2015年春夏流行色" class="colorful-title" data-hover-color="#6170ca" ><small class="colorful-tag" style="background-color:#61b4ca;">人气推荐</small>设计趋势：2015年春夏流行色</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>寒冷的冬天提醒我又要关注一下来年春夏的颜色了，因为春夏的颜色往往清新明快，赏心悦目的颜色会让我感觉冬天不那么难 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-06T08:36:06+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.06</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1321" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">495</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1321#comment-box-1321" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">5</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1321#post-1321" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1391 post type-post status-publish format-standard has-post-thumbnail hentry category-81">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/imac-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=81" rel="category" style="background-color:#ca8661" title="查看所有 学习笔记 的文章">学习笔记</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行" class="colorful-title" data-hover-color="#ca8661" >现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>一直以來 iMac 都致力帶來壯闊而逼真的空間，讓你可好好觀賞，並創造不同精彩事情。所以要製造一部最出色的 i [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-02T10:35:47+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.02</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1391" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">436</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1391#comment-box-1391" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">7</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://www.apple.com/" class="reading-continue post-meta custom-post-redirect-link hide-on-mobile"  target="_blank"  rel="nofollow"  >去购买</a>
+						</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1407 post type-post status-publish format-standard has-post-thumbnail hentry category-73 tag-beauty tag-88 tag-104">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="12款花样美甲 怎么搭都有范儿">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/fdfd-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="12款花样美甲 怎么搭都有范儿" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="12款花样美甲 怎么搭都有范儿" class="colorful-title" data-hover-color="#6170ca" >12款花样美甲 怎么搭都有范儿</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>潮流时刻在变，仿佛睡醒一觉就突然发现，最新的流行已经不是圆圆的芭比眼，长形眼才是标配，也就是眼大还不够还要看起 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2014-01-08T03:00:49+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2014.01.08</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1407" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">293</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1407#comment-box-1407" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon"></span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1407#post-1407" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1410 post type-post status-publish format-standard has-post-thumbnail hentry category-101 tag-85 tag-86 tag-100 tag-99">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1410" title="粉底修容法 轻松快速变身V脸美人">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/sa-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="粉底修容法 轻松快速变身V脸美人" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=101" rel="category" style="background-color:#86b767" title="查看所有 互联网 的文章">互联网</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1410" title="粉底修容法 轻松快速变身V脸美人" class="colorful-title" data-hover-color="#86b767" >粉底修容法 轻松快速变身V脸美人</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>潮流时刻在变，仿佛睡醒一觉就突然发现，最新的流行已经不是圆圆的芭比眼，长形眼才是标配，也就是眼大还不够还要看起 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2013-01-03T03:07:06+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1410" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2013.01.03</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1410" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">268</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1410#comment-box-1410" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">3</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1410#post-1410" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1416 post type-post status-publish format-standard has-post-thumbnail hentry category-101 category-73 tag-88 tag-86">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1416" title="后现代设计灯具精选推荐">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/img-4-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="后现代设计灯具精选推荐" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=101" rel="category" style="background-color:#86b767" title="查看所有 互联网 的文章">互联网</a>
+								<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1416" title="后现代设计灯具精选推荐" class="colorful-title" data-hover-color="#86b767" >后现代设计灯具精选推荐</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>好像女人的一生就两个主题：逛，吃。所以有个笑话说女人的一生就是一辆火车，逛吃逛吃逛吃。而今天的女摄影师Pric [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2011-01-12T03:16:04+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1416" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2011.01.12</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1416" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">243</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1416#comment-box-1416" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">2</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1416#post-1416" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+			</div>
+			<div class="grid-container">
+
+	<div class="sidebar widget-area widget-left grid-15 hide-on-tablet hide-on-mobile" role="complementary"> 
+	<div style="width:100%;height:1px">&nbsp;</div>
+	<aside id="widget_notice-2"><div class="widget widget_notice"><h3 class="widget-title">下载本站主题</h3><div class="widget-notice">点击以下链接获取 DR-II 主题。 <a href="http://www.shejidaren.com/dr-ii.html" target="_blank">主题下载</a></div></div></aside><aside id="categories-3"><div class="widget widget_categories"><h3 class="widget-title">分类目录</h3><ul><li class="cat-item cat-item-90"><a href="http://demo.shejidaren.com/dr-ii/?cat=90" >Wonder Life</a></li><li class="cat-item cat-item-74"><a href="http://demo.shejidaren.com/dr-ii/?cat=74" title="wordpressssss">WordPress主题</a><ul class='children'><li class="cat-item cat-item-76"><a href="http://demo.shejidaren.com/dr-ii/?cat=76" >WP插件推荐</a></li></ul></li><li class="cat-item cat-item-101"><a href="http://demo.shejidaren.com/dr-ii/?cat=101" >互联网</a></li><li class="cat-item cat-item-81"><a href="http://demo.shejidaren.com/dr-ii/?cat=81" >学习笔记</a></li><li class="cat-item cat-item-73"><a href="http://demo.shejidaren.com/dr-ii/?cat=73" >生活</a></li><li class="cat-item cat-item-72"><a href="http://demo.shejidaren.com/dr-ii/?cat=72" >视觉设计</a></li></ul></div></aside><aside id="text-4"><div class="widget widget_text"><div class="textwidget"><div style="width:160px;margin:0 auto;"><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/160-600-IMG.png" /></div></div></div></aside><aside id="archives-2"><div class="widget widget_archive"><h3 class="widget-title">文章归档</h3><ul><li><a href='http://demo.shejidaren.com/dr-ii/?m=201501'>2015年一月</a></li><li><a href='http://demo.shejidaren.com/dr-ii/?m=201401'>2014年一月</a></li><li><a href='http://demo.shejidaren.com/dr-ii/?m=201301'>2013年一月</a></li><li><a href='http://demo.shejidaren.com/dr-ii/?m=201201'>2012年一月</a></li><li><a href='http://demo.shejidaren.com/dr-ii/?m=201101'>2011年一月</a></li></ul></div></aside><aside id="text-3"><div class="widget widget_text"><div class="textwidget"><div style="text-align:center"><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/code-mobile-demo.png" width="150" alt="移动版演示"/><p> 扫一扫<br /> 体验 DR-II 移动版 </p></div></div></div></aside></div>	
+	<div id="main" class="grid-60 tablet-grid-60 mobile-grid-100">
+		 <div id="slidebox-ready" class="hide-on-mobile"><div class="tip-status tip-status-small tip-status-loading"><span class="icon-spinner"></span><span class="after-icon"></span></div></div><div id="slidebox" class="hide-on-mobile"><a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="" rel="nofollow" target="blank" ><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2014/12/banner-c-670x360.jpg" alt="" width="670" height="360"/><div class="bg"><h3></h3></div></a><a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="小伙伴们，圣诞快乐！" rel="nofollow" target="blank" ><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2014/12/banner-b-670x360.jpg" alt="小伙伴们，圣诞快乐！" width="670" height="360"/><div class="bg"><h3> 小伙伴们，圣诞快乐！ <small>12.31</small></h3><div class="cats"><span class="cat" style="background-color:#ee916f">视觉设计</span></div></div></a><a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="DR-II | Modern Responsive WordPress Theme" rel="nofollow" target="blank" ><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2014/12/banner-a-670x360.jpg" alt="DR-II | Modern Responsive WordPress Theme" width="670" height="360"/><div class="bg"><h3> DR-II | Modern Responsive WordPress Theme <small>为个人、站长们建造的主题</small></h3><div class="cats"><span class="cat" style="background-color:#a89d84">Wonder Life</span></div></div></a><a href="#" class="slidesjs-previous slidesjs-navigation hide-on-mobile"><span class="icon-angle-left"></span></a><a href="#" class="slidesjs-next slidesjs-navigation hide-on-mobile"><span class="icon-angle-right"></span></a></div> 			
+					
+			
+			
+			<article class="post-1397 post type-post status-publish format-standard has-post-thumbnail hentry category-72 tag-web-design tag-98 tag-97 tag-100 tag-99">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="网页设计师不要错过！2015年度最值得关注的21个网页设计趋势">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/pp-3-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="网页设计师不要错过！2015年度最值得关注的21个网页设计趋势" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category" style="background-color:#ee916f" title="查看所有 视觉设计 的文章">视觉设计</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="网页设计师不要错过！2015年度最值得关注的21个网页设计趋势" class="colorful-title" data-hover-color="#ee916f" >网页设计师不要错过！2015年度最值得关注的21个网页设计趋势</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>网页设计发展很快，它主要是跟着设计潮流以及Web技术一起演变。从纯文字的网页到FLASH、然后现在流行的HTM [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-11T04:13:21+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1397" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.11</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1397" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">3063</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1397#comment-box-1397" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">42</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1397#post-1397" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1365 post type-post status-publish format-standard has-post-thumbnail hentry category-wonder-life category-81 tag-life tag-92 tag-94 tag-93">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="不属于我的东西，我不要。不是真心给我的东西，我不要">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/78D1F7952121-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="不属于我的东西，我不要。不是真心给我的东西，我不要" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=90" rel="category" style="background-color:#a89d84" title="查看所有 Wonder Life 的文章">Wonder Life</a>
+								<a href="http://demo.shejidaren.com/dr-ii/?cat=81" rel="category" style="background-color:#ca8661" title="查看所有 学习笔记 的文章">学习笔记</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="不属于我的东西，我不要。不是真心给我的东西，我不要" class="colorful-title" data-hover-color="#a89d84" ><small class="colorful-tag" style="background-color:#86b767;">精选</small>不属于我的东西，我不要。不是真心给我的东西，我不要</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>等你到了一定的年龄，彼此的过去已经不再重要，那些曾经令你无比在乎的东西就好像半途而退的潮汐一般似乎没有了提及的 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-09T09:48:01+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1365" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.09</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1365" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">1535</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1365#comment-box-1365" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">21</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1365#post-1365" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1356 post type-post status-publish format-standard hentry category-wp tag-89 tag-88 tag-87">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1356" title="不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/woman-570883_640.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=76" rel="category" style="background-color:#a584a8" title="查看所有 WP插件推荐 的文章">WP插件推荐</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1356" title="不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方" class="colorful-title" data-hover-color="#a584a8" ><small class="colorful-tag" style="background-color:#ca6161;">秒杀</small>不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>女生一般如诗，男生大多如是。但爱情不能如诗，想象的爱情会剔除真实的平凡和琐碎，爱会变得飘渺，丧失了根基和安全感 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-07T09:29:48+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1356" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.07</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1356" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">772</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1356#comment-box-1356" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">4</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1356#post-1356" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1352 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress category-73 category-72 tag-85 tag-83 tag-86 tag-84">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1352" title="最后和你在一起的，会突破你的原则，成为你的例外">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/085627fSu-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="最后和你在一起的，会突破你的原则，成为你的例外" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=74" rel="category" style="background-color:#61b4ca" title="查看所有 WordPress主题 的文章">WordPress主题</a>
+								<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+								<a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category" style="background-color:#ee916f" title="查看所有 视觉设计 的文章">视觉设计</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1352" title="最后和你在一起的，会突破你的原则，成为你的例外" class="colorful-title" data-hover-color="#61b4ca" >最后和你在一起的，会突破你的原则，成为你的例外</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>我决定和你在一起的时候，就希望未来哪天忧伤也有你在身旁，可是有时我只想一人默默流泪，从未想过你也如此悲伤。德国 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-06T09:26:09+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1352" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.06</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1352" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">474</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1352#comment-box-1352" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">6</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1352#post-1352" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1321 post type-post status-publish format-standard has-post-thumbnail hentry category-73">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="设计趋势：2015年春夏流行色">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/pp-3-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="设计趋势：2015年春夏流行色" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="设计趋势：2015年春夏流行色" class="colorful-title" data-hover-color="#6170ca" ><small class="colorful-tag" style="background-color:#61b4ca;">人气推荐</small>设计趋势：2015年春夏流行色</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>寒冷的冬天提醒我又要关注一下来年春夏的颜色了，因为春夏的颜色往往清新明快，赏心悦目的颜色会让我感觉冬天不那么难 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-06T08:36:06+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1321" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.06</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1321" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">495</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1321#comment-box-1321" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">5</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1321#post-1321" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1317 post type-post status-publish format-standard has-post-thumbnail hentry category-72">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1317" title="快速生成Nexus设备的APP截图工具 – Device Art Generator">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/085628J7v-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="快速生成Nexus设备的APP截图工具 – Device Art Generator" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category" style="background-color:#ee916f" title="查看所有 视觉设计 的文章">视觉设计</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1317" title="快速生成Nexus设备的APP截图工具 – Device Art Generator" class="colorful-title" data-hover-color="#ee916f" >快速生成Nexus设备的APP截图工具 – Device Art Generator</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>APP官网网站设计一般都放个模拟手机APP截图上去，如果是iOS应用，就放iPhone模型加APP截图，And [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-06T08:31:36+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1317" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.06</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1317" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">407</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1317#comment-box-1317" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">4</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1317#post-1317" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1391 post type-post status-publish format-standard has-post-thumbnail hentry category-81">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/imac-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=81" rel="category" style="background-color:#ca8661" title="查看所有 学习笔记 的文章">学习笔记</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行" class="colorful-title" data-hover-color="#ca8661" >现货APPLE/苹果 ME086CH/A 21.5寸台式一体机新款电脑iMac086国行</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>一直以來 iMac 都致力帶來壯闊而逼真的空間，讓你可好好觀賞，並創造不同精彩事情。所以要製造一部最出色的 i [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-02T10:35:47+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1391" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.02</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1391" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">436</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1391#comment-box-1391" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">7</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://www.apple.com/" class="reading-continue post-meta custom-post-redirect-link hide-on-mobile"  target="_blank"  rel="nofollow"  >去购买</a>
+						</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1405 post type-post status-publish format-standard has-post-thumbnail hentry category-101 tag-n1 tag-nokia tag-102 tag-104">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1405" title="N1 国行售价 1599 元，但诺基亚的品牌价值显然不止这么点">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/img-11-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="N1 国行售价 1599 元，但诺基亚的品牌价值显然不止这么点" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=101" rel="category" style="background-color:#86b767" title="查看所有 互联网 的文章">互联网</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1405" title="N1 国行售价 1599 元，但诺基亚的品牌价值显然不止这么点" class="colorful-title" data-hover-color="#86b767" ><small class="colorful-tag" style="background-color:#6170ca;">限时</small>N1 国行售价 1599 元，但诺基亚的品牌价值显然不止这么点</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>平庸的设计，无用的功能，欠缺的生态，配上一个高端的价格……亚马逊的 Fire 手机从发布之日起，就已经注定了悲 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2015-01-02T04:05:58+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1405" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2015.01.02</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1405" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">186</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1405#comment-box-1405" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon"></span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1405#post-1405" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1407 post type-post status-publish format-standard has-post-thumbnail hentry category-73 tag-beauty tag-88 tag-104">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="12款花样美甲 怎么搭都有范儿">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/fdfd-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="12款花样美甲 怎么搭都有范儿" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category" style="background-color:#6170ca" title="查看所有 生活 的文章">生活</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="12款花样美甲 怎么搭都有范儿" class="colorful-title" data-hover-color="#6170ca" >12款花样美甲 怎么搭都有范儿</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>潮流时刻在变，仿佛睡醒一觉就突然发现，最新的流行已经不是圆圆的芭比眼，长形眼才是标配，也就是眼大还不够还要看起 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2014-01-08T03:00:49+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1407" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2014.01.08</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1407" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">293</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1407#comment-box-1407" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon"></span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1407#post-1407" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+<article class="post-1360 post type-post status-publish format-standard has-post-thumbnail hentry category-72 tag-85 tag-88 tag-86 tag-84">
+	<div class="post-thumbnail">
+		<a href="http://demo.shejidaren.com/dr-ii/?p=1360" title="每天都含辛茹苦，就差头悬梁锥刺股… …">
+			<img data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/78D117BFE7D2-210x140.jpg" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" alt="每天都含辛茹苦，就差头悬梁锥刺股… …" width="210" height="140"/>
+		</a>
+		<div class="post-category-inner hide-on-mobile">
+							<a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category" style="background-color:#ee916f" title="查看所有 视觉设计 的文章">视觉设计</a>
+						</div>
+	</div>
+	
+	<div class="post-body">
+		<div class="post-mxh">
+							<h2 class="post-title"><a href="http://demo.shejidaren.com/dr-ii/?p=1360" title="每天都含辛茹苦，就差头悬梁锥刺股… …" class="colorful-title" data-hover-color="#ee916f" >每天都含辛茹苦，就差头悬梁锥刺股… …</a></h2>
+						
+			<div title="" class="post-excerpt">
+				<p>一开始我真是每次都被摆一道，心想对啊！鸡汤里不是教育我们要看过程不要看结果嘛？你看人家的过程似乎无可挑剔啊，每 [&hellip;]</p>
+			</div>
+			
+		</div><!-- /.post-mxh -->
+		<footer class="post-footer post-metas">
+			<!-- author -->
+						
+			<!-- time -->
+			<time class="post-meta post-time" datetime="2013-01-06T09:35:59+00:00">
+				<a href="http://demo.shejidaren.com/dr-ii/?p=1360" title="">
+					<span class="icon-calendar"></span><span class="after-icon">2013.01.06</span>
+				</a>
+			</time>
+			
+			<!-- views -->
+							<a class="post-meta post-views" href="http://demo.shejidaren.com/dr-ii/?p=1360" title="查看数">
+					<span class="icon-eye"></span><span class="after-icon">340</span>
+				</a>
+					
+						<a href="http://demo.shejidaren.com/dr-ii/?p=1360#comment-box-1360" class="post-meta comment-count" title="评论"><span class="icon-comment"></span><span class="after-icon">2</span>
+			</a>
+			<!-- reading continue -->
+							<a href="http://demo.shejidaren.com/dr-ii/?p=1360#post-1360" class="reading-continue post-meta hide-on-mobile">阅读全文 &raquo;</a>
+					</footer>
+	</div><!-- /.post-body -->
+</article>
+			<a href="http://demo.shejidaren.com/dr-ii/?paged=2#banner" class="area-nextpage btn">查看更多文章</a>
+						
+			<div class="area-pagination">
+				<nav class="posts-pagination posts-pagination-bottom"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://demo.shejidaren.com/dr-ii/?paged=2#banner'>2</a>
+<a class="next page-numbers" href="http://demo.shejidaren.com/dr-ii/?paged=2#banner">&raquo;</a></nav>			</div>
+				</div>
+
+	<div class="sidebar widget-area widget-right grid-25 tablet-grid-25 hide-on-mobile" role="complementary">
+	<div style="width:100%;height:1px">&nbsp;</div>
+	<aside id="widget_rank-2"><div class="widget widget_rank"><h3 class="widget-title"><span class="icon-bars"></span><span class="after-icon">最新文章</span></h3><ul class="tabbody post-lists post-img-lists widget-orderby-latest"><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1397"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/pp-3-210x140.jpg" alt="网页设计师不要错过！2015年度最值得关注的21个网页设计趋势" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1397" class="post-list-title" title="网页设计师不要错过！2015年度最值得关注的21个网页设计趋势 - 网页设计发展很快，它主要是跟着设计潮流以及Web技术一起演变。从纯文字的网页到FLASH、然后现在流行的HTM [&hellip;]">网页设计师不要错过！2015年度最值得关注的21个网页设计趋势</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category">视觉设计</a></span></div></li><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1365"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/78D1F7952121-210x140.jpg" alt="不属于我的东西，我不要。不是真心给我的东西，我不要" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1365" class="post-list-title" title="不属于我的东西，我不要。不是真心给我的东西，我不要 - 等你到了一定的年龄，彼此的过去已经不再重要，那些曾经令你无比在乎的东西就好像半途而退的潮汐一般似乎没有了提及的 [&hellip;]">不属于我的东西，我不要。不是真心给我的东西，我不要</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=90" rel="category">Wonder Life</a><span class="split">,</span><a href="http://demo.shejidaren.com/dr-ii/?cat=81" rel="category">学习笔记</a></span></div></li><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1356"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/woman-570883_640.jpg" alt="不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1356" class="post-list-title" title="不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方 - 女生一般如诗，男生大多如是。但爱情不能如诗，想象的爱情会剔除真实的平凡和琐碎，爱会变得飘渺，丧失了根基和安全感 [&hellip;]">不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=76" rel="category">WP插件推荐</a></span></div></li><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1352"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/085627fSu-210x140.jpg" alt="最后和你在一起的，会突破你的原则，成为你的例外" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1352" class="post-list-title" title="最后和你在一起的，会突破你的原则，成为你的例外 - 我决定和你在一起的时候，就希望未来哪天忧伤也有你在身旁，可是有时我只想一人默默流泪，从未想过你也如此悲伤。德国 [&hellip;]">最后和你在一起的，会突破你的原则，成为你的例外</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=74" rel="category">WordPress主题</a><span class="split">,</span><a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category">生活</a><span class="split">,</span><a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category">视觉设计</a></span></div></li><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1321"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/pp-3-210x140.jpg" alt="设计趋势：2015年春夏流行色" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1321" class="post-list-title" title="设计趋势：2015年春夏流行色 - 寒冷的冬天提醒我又要关注一下来年春夏的颜色了，因为春夏的颜色往往清新明快，赏心悦目的颜色会让我感觉冬天不那么难 [&hellip;]">设计趋势：2015年春夏流行色</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=73" rel="category">生活</a></span></div></li><li class="post-list post-img-list"><a href="http://demo.shejidaren.com/dr-ii/?p=1317"><img class="post-list-img" src="http://demo.shejidaren.com/dr-ii/wp-content/themes/dr-ii/static/images/min/frontend/thumb-preview.png" data-original="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/085628J7v-210x140.jpg" alt="快速生成Nexus设备的APP截图工具 – Device Art Generator" width="210" height="140"/></a><div class="tx"><a href="http://demo.shejidaren.com/dr-ii/?p=1317" class="post-list-title" title="快速生成Nexus设备的APP截图工具 – Device Art Generator - APP官网网站设计一般都放个模拟手机APP截图上去，如果是iOS应用，就放iPhone模型加APP截图，And [&hellip;]">快速生成Nexus设备的APP截图工具 – Device Art Generator</a><span class="post-list-categories"><a href="http://demo.shejidaren.com/dr-ii/?cat=72" rel="category">视觉设计</a></span></div></li></ul></div></aside><aside id="text-5"><div class="widget widget_text"><div class="textwidget"><a href="http://www.shejidaren.com/dr-ii.html" target="_blank"><img src="http://demo.shejidaren.com/dr-ii/wp-content/uploads/2015/01/banner-270.png" /></a></div></div></aside><aside id="widget_comments-2"><div class="widget widget_comments"><h3 class="widget-title"><span class="icon-comment"></span><span class="after-icon">最新评论</span></h3><ul class="lastest-comments"><li><a href="http://demo.shejidaren.com/dr-ii/?p=1352#comment-165"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="匿名" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">匿名</span><time datetime="2017-08-28T02:25:42+00:00"><small>10 小时前</small></time></div><div class="comment-content">good</div></div></a></li><li><a href="http://demo.shejidaren.com/dr-ii/?p=1365#comment-164"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="shelly" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">shelly</span><time datetime="2017-08-28T01:33:55+00:00"><small>10 小时前</small></time></div><div class="comment-content">good</div></div></a></li><li><a href="http://demo.shejidaren.com/dr-ii/?p=1397#comment-163"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/fad5980d8488b34e7fb4c411f1aae4ff?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="das" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">das</span><time datetime="2017-08-08T17:46:45+00:00"><small>08.08</small></time></div><div class="comment-content">das</div></div></a></li><li><a href="http://demo.shejidaren.com/dr-ii/?p=1397#comment-162"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/fad5980d8488b34e7fb4c411f1aae4ff?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="das" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">das</span><time datetime="2017-08-08T17:46:29+00:00"><small>08.08</small></time></div><div class="comment-content">dsadas</div></div></a></li><li><a href="http://demo.shejidaren.com/dr-ii/?p=1352#comment-161"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="匿名" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">匿名</span><time datetime="2017-08-08T05:40:12+00:00"><small>08.08</small></time></div><div class="comment-content">99999</div></div></a></li><li><a href="http://demo.shejidaren.com/dr-ii/?p=1352#comment-160"><img class="avatar" data-original="http://gravatar.eqoe.cn/avatar/?s=96&#038;d=wavatar&#038;r=g" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="匿名" width="40" height="40"/><div class="tx"><div class="meta"><span class="author">匿名</span><time datetime="2017-08-08T05:39:57+00:00"><small>08.08</small></time></div><div class="comment-content">998</div></div></a></li></ul></div></aside><aside id="tag_cloud-2"><div class="widget widget_tag_cloud"><h3 class="widget-title">标签</h3><div class="tagcloud"><a href='http://demo.shejidaren.com/dr-ii/?tag=beauty' class='tag-link-106 tag-link-position-1' title='1个话题' style='font-size: 8pt;'>Beauty</a><a href='http://demo.shejidaren.com/dr-ii/?tag=life' class='tag-link-91 tag-link-position-2' title='1个话题' style='font-size: 8pt;'>Life</a><a href='http://demo.shejidaren.com/dr-ii/?tag=n1' class='tag-link-105 tag-link-position-3' title='1个话题' style='font-size: 8pt;'>N1</a><a href='http://demo.shejidaren.com/dr-ii/?tag=nokia' class='tag-link-103 tag-link-position-4' title='1个话题' style='font-size: 8pt;'>NOKIA</a><a href='http://demo.shejidaren.com/dr-ii/?tag=web-design' class='tag-link-96 tag-link-position-5' title='2个话题' style='font-size: 13.25pt;'>Web Design</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86' class='tag-link-89 tag-link-position-6' title='1个话题' style='font-size: 8pt;'>人生哲理</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e4%bc%98%e7%be%8e%e6%96%87%e5%ad%97' class='tag-link-85 tag-link-position-7' title='3个话题' style='font-size: 16.75pt;'>优美文字</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e5%8a%b1%e5%bf%97' class='tag-link-88 tag-link-position-8' title='5个话题' style='font-size: 22pt;'>励志</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e5%9b%be%e7%89%87' class='tag-link-87 tag-link-position-9' title='1个话题' style='font-size: 8pt;'>图片</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e5%ad%a6%e4%b9%a0%e6%80%81%e5%ba%a6' class='tag-link-92 tag-link-position-10' title='1个话题' style='font-size: 8pt;'>学习态度</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e6%89%8b%e6%9c%ba' class='tag-link-102 tag-link-position-11' title='1个话题' style='font-size: 8pt;'>手机</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e7%89%88%e6%9d%83' class='tag-link-98 tag-link-position-12' title='1个话题' style='font-size: 8pt;'>版权</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e7%94%9f%e6%b4%bb' class='tag-link-83 tag-link-position-13' title='1个话题' style='font-size: 8pt;'>生活</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c' class='tag-link-94 tag-link-position-14' title='1个话题' style='font-size: 8pt;'>用户体验</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e7%a7%91%e6%8a%80' class='tag-link-104 tag-link-position-15' title='2个话题' style='font-size: 13.25pt;'>科技</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e7%bb%8f%e5%85%b8%e8%af%ad%e5%bd%95' class='tag-link-86 tag-link-position-16' title='4个话题' style='font-size: 19.666666666667pt;'>经典语录</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e8%87%aa%e7%84%b6%e6%91%84%e5%bd%b1' class='tag-link-97 tag-link-position-17' title='1个话题' style='font-size: 8pt;'>自然摄影</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e8%a7%86%e8%a7%89%e8%ae%be%e8%ae%a1' class='tag-link-93 tag-link-position-18' title='1个话题' style='font-size: 8pt;'>视觉设计</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e8%ae%be%e8%ae%a1%e5%85%83%e7%b4%a0' class='tag-link-100 tag-link-position-19' title='2个话题' style='font-size: 13.25pt;'>设计元素</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e8%af%ad%e5%bd%95' class='tag-link-84 tag-link-position-20' title='3个话题' style='font-size: 16.75pt;'>语录</a><a href='http://demo.shejidaren.com/dr-ii/?tag=%e8%b6%8b%e5%8a%bf' class='tag-link-99 tag-link-position-21' title='2个话题' style='font-size: 13.25pt;'>趋势</a></div></div></aside><aside id="widget_hot_tags-2"><div class="widget widget_hot_tags"><h3 class="widget-title"><span class="icon-tags"></span><span class="after-icon">热门标签</span></h3><div class="widget-content"><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c" style=" font-size:11pt; color:rgb(183,186,125);" >用户体验</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e8%ae%be%e8%ae%a1%e5%85%83%e7%b4%a0" style=" font-size:13.25pt; color:rgb(166,110,119);" >设计元素</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e6%89%8b%e6%9c%ba" style=" font-size:11pt; color:rgb(65,177,133);" >手机</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=beauty" style=" font-size:11pt; color:rgb(141,75,154);" >Beauty</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e4%bc%98%e7%be%8e%e6%96%87%e5%ad%97" style=" font-size:15.5pt; color:rgb(166,175,166);" >优美文字</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e5%8a%b1%e5%bf%97" style=" font-size:20pt; color:rgb(117,62,140);" >励志</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e7%a7%91%e6%8a%80" style=" font-size:13.25pt; color:rgb(104,173,165);" >科技</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e7%89%88%e6%9d%83" style=" font-size:11pt; color:rgb(182,127,130);" >版权</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=web-design" style=" font-size:13.25pt; color:rgb(109,107,73);" >Web Design</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e8%87%aa%e7%84%b6%e6%91%84%e5%bd%b1" style=" font-size:11pt; color:rgb(62,77,164);" >自然摄影</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e8%a7%86%e8%a7%89%e8%ae%be%e8%ae%a1" style=" font-size:11pt; color:rgb(150,164,186);" >视觉设计</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e8%af%ad%e5%bd%95" style=" font-size:15.5pt; color:rgb(194,84,187);" >语录</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e7%bb%8f%e5%85%b8%e8%af%ad%e5%bd%95" style=" font-size:17.75pt; color:rgb(146,74,93);" >经典语录</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=nokia" style=" font-size:11pt; color:rgb(66,190,90);" >NOKIA</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=life" style=" font-size:11pt; color:rgb(110,51,163);" >Life</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e8%b6%8b%e5%8a%bf" style=" font-size:13.25pt; color:rgb(136,129,191);" >趋势</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=n1" style=" font-size:11pt; color:rgb(104,77,100);" >N1</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e5%9b%be%e7%89%87" style=" font-size:11pt; color:rgb(148,60,78);" >图片</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86" style=" font-size:11pt; color:rgb(108,131,120);" >人生哲理</a><a class="hot-tag" href="http://demo.shejidaren.com/dr-ii/?tag=%e5%ad%a6%e4%b9%a0%e6%80%81%e5%ba%a6" style=" font-size:11pt; color:rgb(96,65,163);" >学习态度</a></div></div></aside></div><!-- /.sidebar-right --></div>
+	<footer id="footer">
+		<div class="grid-container">
+			<p class="footer-meta copyright">
+				Copyright &copy; <a href="http://demo.shejidaren.com/dr-ii">DR-II 主题 demo 站</a> 2017.				Theme <a href="http://shejidaren.com/dr-ii.html" target="_blank" rel="nofollow">DR-II</a> by <a href="http://shejidaren.com" target="_blank" rel="nofollow">SheJiDaRen</a>.				Powered by <a href="http://www.wordpress.org" target="_blank" rel="nofollow">WordPress</a>.			</p>
+			<div class="grid-100 tablet-grid-100 mobile-grid-100">
+				<nav class="menu-testing-menu-container"><ul id="menu-footer" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1257"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1149">About</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1114"><a href="#">Pages</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1062">Amazon Store</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1259"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1066">Blog</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1260"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1064">Home</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1261"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1146">Page Comments</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1262"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1145">Page Comments Disabled</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1147">Page Image Alignment</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1264"><a href="http://demo.shejidaren.com/dr-ii/?page_id=1148">Page Markup And Formatting</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1115"><a href="#">Categories</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1133"><a href="#">Depth</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1134"><a href="#">Level 01</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1135"><a href="#">Level 02</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1136"><a href="#">Level 03</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1137"><a href="#">Level 04</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1138"><a href="#">Level 05</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1139"><a href="#">Level 06</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1140"><a href="#">Level 07</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1141"><a href="#">Level 08</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1142"><a href="#">Level 09</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1143"><a href="#">Level 10</a></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1144"><a href="#">Advanced</a><ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1157"><a title="Custom Title Attribute" href="#">Menu Title Attribute</a></li><li class="custom-menu-css-class menu-item menu-item-type-custom menu-item-object-custom menu-item-1158"><a href="#">Menu CSS Class</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1159"><a target="_blank" href="http://apple.com">New Window / Tab</a></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1156"><a href="#">Menu Description</a></li></ul></nav>			</div>
+		</div>
+	</footer>
+	<a href="javascript:void(0);" id="gototop" class="hide-on-mobile" title="滚动到顶部"><span class="icon-angle-up"></span></a>
+	<script>(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://':'http://')+'s4.cnzz.com/stat.php?id=1254067821';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script><script type='text/javascript' src='http://demo.shejidaren.com/dr-ii/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+				<script>
+		try{console.table([{"Description":"\u4e3b\u9898\u6027\u80fd\uff1a","\u65f6\u95f4\uff08\u79d2\uff09":"00.161","\u67e5\u8be2\u6570":"002","\u5185\u5b58\uff08\u5146\uff09":"06.55238"},{"Description":"\u57fa\u672c\u6027\u80fd\uff1a","\u65f6\u95f4\uff08\u79d2\uff09":"00.000","\u67e5\u8be2\u6570":"000","\u5185\u5b58\uff08\u5146\uff09":"00.00000"},{"Description":"\u6700\u7ec8\u6027\u80fd\uff1a","\u65f6\u95f4\uff08\u79d2\uff09":"00.161","\u67e5\u8be2\u6570":"002","\u5185\u5b58\uff08\u5146\uff09":"06.55238"}])}catch(e){}
+		</script>
+		</body></html>
